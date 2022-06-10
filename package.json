@@ -1,0 +1,18 @@
+{
+  "name": "notion-knowledge-graphs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/JannisHajda/notion-knowledge-graphs.git",
+  "author": "Jannis Hajda <jannis.hajda@protonmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@notionhq/client": "^1.0.4"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1"
+  }
+}
